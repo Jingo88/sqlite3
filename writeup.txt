@@ -1,0 +1,16 @@
+what is a database?
+A database stores information that can be created, read, updated, or destroyed. It is meant to story information even after a server is closed. 
+
+
+List some problems with using files instead of a database
+Regular files may not be efficient in terms of persistence. A database will store and keep all your information up to date. 
+
+
+What is a schema (google may confuse you here)
+.schema will show you the structure of the targeted table
+
+
+When you are not specifically adding/deleting or querying your database, is it still running?
+The database will always have the latest information even when you are not actively querying it. 
+
+
