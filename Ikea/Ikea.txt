@@ -1,0 +1,23 @@
+touch Ikea.txt
+
+subl Ikea.txt 
+
+touch IKEA.db
+
+sqlite3 IKEA.db 
+
+CREATE TABLE chairs (id INTEGER PRIMARY KEY, color TEXT, legs INTEGER);
+
+INSERT INTO chairs (color, legs) VALUES ("green", 4), ("blue", 4), ("yellow", 3), ("blue", 3), ("green", 3);
+
+SELECT *FROM chairs;
+
+SELECT color = "blue" FROM chairs;
+
+SELECT id, color = "blue" FROM chairs;
+
+DELETE FROM chairs WHERE id = 2;
+
+DELETE FROM chairs WHERE id = 4;
+
+INSERT INTO chairs (id, color, legs) VALUES (2, "chartreuse", 2);
