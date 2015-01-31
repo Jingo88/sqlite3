@@ -74,7 +74,6 @@ var setLiToPet = function(li, pet){
 	deleteButton.innerHTML = "Delete";
 	deleteButton.addEventListener('click', deletePet);
 	li.appendChild(deleteButton);
-
 }
 
 
@@ -93,7 +92,7 @@ var updatePet = function(li, newName, newType){
 }
 
 var addNewPetButton = document.getElementById('addNewPet');
-addNewPetButton.addEventListener('click', function(){
+	addNewPetButton.addEventListener('click', function(){
 	var newName = document.getElementById('newPetName');
 	var newType = document.getElementById('newPetType');
 
